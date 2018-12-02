@@ -1,0 +1,22 @@
+
+body, html{ 
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    background: #F2F2F2;
+    text-align: justify;
+}
+
+
+.main-container{
+    background: #fff;
+    margin-top: 112px;
+    background-position: center;
+scroll-behavior: smooth;
+    border-radius: 10px 10px 10px 10px;     
+    
+}
+
+.container{
+ margin-bottom: 20px;
+}

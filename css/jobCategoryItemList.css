@@ -1,0 +1,145 @@
+body{
+    background: #ededed;
+    color: #000;
+}
+
+h1,h2,h3{
+  color: #000 !important;
+}
+
+.card-text a{
+  color: black;
+}
+.btn{
+  color: black !important;
+}
+
+.itemHeadings{
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 100px;
+
+}
+
+
+
+/*navigation bar general css*/
+
+.navbar{
+  padding: 20px 0px;
+  transition: all .5s ease-in-out;
+}
+.jobs-top-nav{
+  background: transparent;
+  padding: 15px 0;
+}
+.job-nav{
+  padding: 0 40px;
+}
+.navbar-nav{
+  float: right;
+}
+.navbar-nav > li > a{
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+  background: none;
+  color: #34c6d3;
+}
+.navbar-toggle{
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+.navbar-collapse{
+  max-height: none !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li{
+    background: #277dc7;
+    color: #fff;
+    font-size: 14px;
+  text-transform: uppercase;
+    
+  border-radius: 5px;
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+    background: #277DC7;
+    color: #34BFD1;
+    letter-spacing: 1px;
+    font-weight: 700;
+  border-radius: 5px;    
+} 
+
+ul li ul.dropdown-menu{
+    /*min-width: 100%;  Set width of the dropdown */
+    background: #277dc7;
+    display: none;
+    position: absolute;
+    z-index: 999;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+    left: 0;
+}
+ul li:hover ul.dropdown-menu{
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown-menu li{
+    display: block;
+}
+
+
+
+/*navigation bar general css closed*/
+
+/*banner css*/
+.jumbotron a{
+  color: #000;
+}
+p .card-text a{
+  color: #000;
+}
+
+
+/*-------job items list---------*/
+
+#card{
+    margin: 10px
+}
+
+#card-body{
+    background: #fff;
+    border: 1.5px solid #ededed;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#banner{
+	text-align: center;
+    background: #fff;
+    color: #000;
+	margin-top:60px;
+}
+#posted-job{
+	color: #000;
+}
+
+
+
+
+
