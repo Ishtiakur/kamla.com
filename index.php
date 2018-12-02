@@ -40,7 +40,7 @@
 		<div id="home-content-box">
                 <div id="home-content-box-inner">
                     <div id="home-heading">
-                        <h1 class="animated fadeInLeft" >We Provide Your Demand</h1>
+                        <h1 class="animated fadeInLeft" >We don't Provide Your Demand</h1>
                         <h3 class="animated fadeInLeft" style="color:#fff">You Are offered With Numerous Job Facilities</h3>
                     </div>
                     <div id="home-btn">
